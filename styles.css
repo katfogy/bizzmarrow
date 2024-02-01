@@ -5,7 +5,9 @@
   font-family:Georgia, 'Times New Roman', Times, serif
 }
 
-
+html, body{
+  scroll-behavior:smooth;
+}
 
 .relative{
   border: 2px solid blue;
