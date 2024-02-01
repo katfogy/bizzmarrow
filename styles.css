@@ -36,8 +36,9 @@
   height: 30px;
   margin: auto;
   background-color: aqua;
-  position: fixed;
+  position: sticky;
   right: 30px;
+  top: 100px;
   bottom: 10px;
   border-radius: 10px;
   text-align: center;
@@ -47,4 +48,13 @@
 header{
   background-color: #ff0000;
   height: 400px;
+}
+
+.containers{
+  width: 300px;
+  margin: auto;
+}
+
+ul{
+  list-style-type:none;
 }
