@@ -1,0 +1,19 @@
+p{
+    background-color: brown;
+    padding: 10px;
+    color: #ffff;
+
+}
+h1{
+    text-decoration: underline;
+}
+
+a{
+    color: #ffff;
+    background-color: tomato;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}

@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+
+
+.container{
+  border: 2px solid blue;
+  width: 100px;
+  height: 30px;
+  margin: auto;
+  background-color: aqua;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  cursor: pointer;
+}
+
+header{
+  background-color: #ff0000;
+  height: 400px;
+}
