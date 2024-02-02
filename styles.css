@@ -1,43 +1,49 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.signup {
-  max-width: 400px;
-  margin: 10px auto;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: -10px 11px 15px -3px rgba(0,0,0,0.1);
-}
-
-.heading {
-  text-align: center;
-  color: red;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-}
-
-.text {
-  line-height: 1.5;
-  text-align: justify;
-}
-
-.btn{
+header{
   background-color: brown;
-  color: #ffff;
-  padding: 10px 20px;
- text-align: center;
- display: block;
- margin: 10px auto;
- border-radius: 5px;
- border: none;
- box-shadow: -10px 11px 15px -3px rgba(0,0,0,0.1);
- cursor: pointer;
+  min-height: 100px;
 }
 
-.nonvisible{
-  display: none;
+nav{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  height: 100px;
 }
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: azure;
+  font-size: 20px;
+}
+
+h2{
+  color: paleturquoise;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ul{
+  display: flex;
+  justify-content: space-between;
+}
+li{
+  margin-right: 20px;
+}
+
+
+/* https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/ */
+
+/* total reference */
