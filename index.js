@@ -1,4 +1,5 @@
-const show=document.getElementById('show');
-show.addEventListener('click',()=>{
-    alert("Thank you subscribing")
+const btn=document.getElementById('btn');
+btn.addEventListener('click',()=>{
+const signup=document.getElementById('signup');
+    signup.classList.toggle("nonvisible")
 })
