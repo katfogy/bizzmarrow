@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visibility Example</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <nav>
-    <h2>LISTPRO</h2>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<button>200px</button>
+    <div class="container">
+        <h1>BIO-DATA Form</h1>
+        <fieldset>
+            <legend>Personal Data</legend>
+            <div class="form-control">
+                <label for="name">Enter Name</label>
+                <input type="text" name="name" placeholder="Enter Name" required>
+            </div>
+            <div class="form-control">
+                <label for="name">Select Male</label>
+               <input type="radio" name="gender"><label for="gender">
+                <label for="name">Select Female</label>
+               <input type="radio" name="gender"><label for="gender">
+            </div>
+            <div class="form-control">
+                <label for="name">Select Date of Birth</label>
+                <input type="date" name="dob" required>
+            </div>
+
+            <div class="form-control">
+                <label for="name">Upload Passport</label>
+                <input type="file" name="passport" required>
+            </div>
+            <div class="form-control">
+                <label for="name">Enter Address</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+    </div>
 </body>
 </html>
